@@ -1,4 +1,5 @@
 # Jims to Hevy Sessions Exporter
+This script exports all your Jims fitness sessions and imports them into hevy. It imports duration of the session and the gym name.
 
 ## Usage
 
