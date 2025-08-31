@@ -49,7 +49,7 @@ def login_session():
 def fetch_checkins():
     session = login_session()
     today = datetime.today()
-    last_year = today - timedelta(days=365)
+    last_year = today - timedelta(days=10000)
     checkin_url = (
         f"https://myjims.jimsfitness.com/nox/v1/studios/checkin/history/report"
         f"?from={last_year.strftime('%Y-%m-%d')}&to={today.strftime('%Y-%m-%d')}"
